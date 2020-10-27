@@ -1,0 +1,2 @@
+*** Variables ***
+${RESOURCE}   wattpad

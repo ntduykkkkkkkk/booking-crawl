@@ -1,0 +1,9 @@
+{
+  "setup": {
+    "browser": "chrome",
+    "headless": "true"
+  },
+  "wattpad": {
+    "url": "https://www.wattpad.com/"
+  }
+}
