@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3083929-fecc-47ed-aa11-aba7b9c9f70b" name="Default Changelist" comment="" />
+    <list default="true" id="c3083929-fecc-47ed-aa11-aba7b9c9f70b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Common/main.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Share/Actions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Share/Actions/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Share/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/Actions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/Actions/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/setup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Common.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Common_Actions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Common/actions.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/Common_Locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Common/locators.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/elementkeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/pcnkeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/tablekeywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/webelement/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/webelement/pcnwebelement_extended.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/wattpad/locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/wattpad/locators.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/wattpad/single_step.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/wattpad/single_step.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/__init__.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/__init__.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/wattpad.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/wattpad.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.robot" beforeDir="false" afterPath="$PROJECT_DIR$/settings.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,14 +36,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libs/Share/Actions/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/robot/utils/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tasks/wattpad.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Steps/wattpad/main_steps.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Steps/wattpad/single_step.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="307">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libs/Wattpad/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -25,8 +106,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Steps/wattpad/locators.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="100">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,40 +131,62 @@
       <find>headless</find>
       <find>alias</find>
       <find>url</find>
+      <find>_SETUP_PATH</find>
+      <find>lower</find>
+      <find>get_data</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Libs/PCNLibrary/__init__.py" />
         <option value="$PROJECT_DIR$/Libs/PCNLibrary/keywords/__init__.py" />
         <option value="$PROJECT_DIR$/settings.json" />
-        <option value="$PROJECT_DIR$/Common/Common_Actions.robot" />
-        <option value="$PROJECT_DIR$/settings.robot" />
-        <option value="$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" />
-        <option value="$PROJECT_DIR$/Tasks/wattpad.robot" />
         <option value="$PROJECT_DIR$/Steps/wattpad.robot" />
-        <option value="$PROJECT_DIR$/Tasks/__init__.robot" />
-        <option value="$PROJECT_DIR$/Common/Common.robot" />
         <option value="$PROJECT_DIR$/Common/Common_Locators.robot" />
         <option value="$PROJECT_DIR$/Steps/wattpad/locator.robot" />
         <option value="$PROJECT_DIR$/Steps/wattpad/main_steps.robot" />
+        <option value="$PROJECT_DIR$/setup.json" />
+        <option value="$PROJECT_DIR$/Libs/Common/Actions/common.py" />
+        <option value="$PROJECT_DIR$/Libs/Common/Actions/__init__.py" />
+        <option value="$PROJECT_DIR$/settings.robot" />
+        <option value="$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" />
+        <option value="$PROJECT_DIR$/Common/Common.robot" />
+        <option value="$PROJECT_DIR$/Libs/Common/__init__.py" />
+        <option value="$PROJECT_DIR$/Libs/PCNLibrary/__init__.py" />
+        <option value="$PROJECT_DIR$/Libs/Booking/keywords/browserkeywords.py" />
+        <option value="$PROJECT_DIR$/Resources/setup.json" />
+        <option value="$PROJECT_DIR$/Libs/Share/Actions/__init__.py" />
+        <option value="$PROJECT_DIR$/Libs/Wattpad/Actions/__init__.py" />
+        <option value="$PROJECT_DIR$/Libs/Share/__init__.py" />
+        <option value="$PROJECT_DIR$/Common/Common_Actions.robot" />
+        <option value="$PROJECT_DIR$/Common/actions.robot" />
+        <option value="$PROJECT_DIR$/Libs/Share/Actions/main.py" />
+        <option value="$PROJECT_DIR$/Tasks/__init__.robot" />
+        <option value="$PROJECT_DIR$/Common/main.robot" />
+        <option value="$PROJECT_DIR$/Tasks/wattpad.robot" />
         <option value="$PROJECT_DIR$/Steps/wattpad/locators.robot" />
         <option value="$PROJECT_DIR$/Steps/wattpad/single_step.robot" />
+        <option value="$PROJECT_DIR$/Libs/Wattpad/__init__.py" />
+        <option value="$PROJECT_DIR$/Libs/Wattpad/Actions/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="93" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1613" />
+    <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,6 +198,35 @@
               <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
               <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
               <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+              <item name="Share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+              <item name="Wattpad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+              <item name="Wattpad" type="462c0819:PsiDirectoryNode" />
+              <item name="Actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="booking-crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="booking-crawl" type="b2602c69:ProjectViewProjectNode" />
@@ -104,7 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +258,12 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.robot" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DN\booking-crawl\Libs" />
+      <recent name="D:\DN\booking-crawl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DN\booking-crawl\Resources" />
       <recent name="D:\DN\booking-crawl\Steps\wattpad" />
     </key>
   </component>
@@ -136,6 +284,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="robot" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="booking-crawl" />
+      <option name="PORT" value="8001" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,111 +309,109 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603794889759</updated>
-      <workItem from="1603794891668" duration="3070000" />
+      <workItem from="1603794891668" duration="11450000" />
+      <workItem from="1603873738353" duration="5995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3070000" />
+    <option name="totallyTimeSpent" value="17445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4974293" weight="0.38136512" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Libs/Wattpad/Actions/main.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>json.loads(response.content.decode(&quot;utf-8&quot;))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json.loads(response.content.decode(&quot;utf-8&quot;)).get(&quot;stories&quot;)[4].get(&quot;url&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response[9].get(&quot;url&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>requests.get(self.parse_url() + &quot;/search/stories?query=&quot;+query_string+&quot;&amp;fields=stories%28id%2Ctitle%2CvoteCount%2CreadCount%2CcommentCount%2Cdescription%2Ccompleted%2Cmature%2Ccover%2Curl%2CisPaywalled%2Cuser%28name%29%2CnumParts%2ClastPublishedPart%28createDate%29%2Cpromoted%2Csponsor%28name%2Cavatar%29%2Ctags%2Ctracking%28clickUrl%2CimpressionUrl%2CthirdParty%28impressionUrls%2CclickUrls%29%29%2Ccontest%28endDate%2CctaLabel%2CctaURL%29%29%2Ctotal%2Ctags%2Cnexturl&amp;limit=15&amp;offset=15&quot;,
+                                )</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>requests.get(self.parse_url() + &quot;/search/stories?query=&quot;+query_string+&quot;&amp;fields=stories%28id%2Ctitle%2CvoteCount%2CreadCount%2CcommentCount%2Cdescription%2Ccompleted%2Cmature%2Ccover%2Curl%2CisPaywalled%2Cuser%28name%29%2CnumParts%2ClastPublishedPart%28createDate%29%2Cpromoted%2Csponsor%28name%2Cavatar%29%2Ctags%2Ctracking%28clickUrl%2CimpressionUrl%2CthirdParty%28impressionUrls%2CclickUrls%29%29%2Ccontest%28endDate%2CctaLabel%2CctaURL%29%29%2Ctotal%2Ctags%2Cnexturl&amp;limit=15&amp;offset=15&quot;,
+                                 headers=headers, verify=False)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.get_data().get(BuiltIn().get_variable_value(&quot;${RESOURCE}&quot;)).get('url')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.get_data()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.get_data().get(&quot;url&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="82" selection-start-line="1" selection-start-column="82" selection-end-line="1" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/elementkeywords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Common_Actions.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="107" column="84" selection-start-line="107" selection-start-column="84" selection-end-line="107" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks/wattpad.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/elementkeywords.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SeleniumLibrary/keywords/browsermanagement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -258,53 +419,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tasks/__init__.robot">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" />
+    <entry file="file://$PROJECT_DIR$/settings.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Common.robot">
+    <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Libs/Share/Actions/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Common_Locators.robot">
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/locators.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Common/actions.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/robot/running/librarykeywordrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Booking/keywords/browserkeywords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="100" column="84" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Booking/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Share/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/setup.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PCN/PCN_UI_Automation/Libs/PCNLibrary/webelement/pcnwebelement_extended.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/main.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Steps/wattpad/locators.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Steps/wattpad/main_steps.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Steps/wattpad/locators.robot">
+    <entry file="file://$PROJECT_DIR$/Steps/wattpad/single_step.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="307">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Steps/wattpad/single_step.robot">
+    <entry file="file://$PROJECT_DIR$/Tasks/wattpad.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="25">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Share/Actions/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/robot/utils/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Wattpad/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.6 on win32)" generated="20201028 18:50:32.523">
+<suite id="s1" name="Tasks" source="D:\DN\booking-crawl\Tasks">
+<kw name="Opening Resource's UI" library="main" type="setup">
+<kw name="Start ${RESOURCE} UI" library="main">
+<kw name="Get Data" library="main">
+<assign>
+<var>${data}</var>
+</assign>
+<kw name="Get Root Path" library="Share">
+<assign>
+<var>${root_path}</var>
+</assign>
+<msg timestamp="20201028 18:50:35.526" level="INFO">${root_path} = D:\DN\booking-crawl</msg>
+<status status="PASS" starttime="20201028 18:50:35.525" endtime="20201028 18:50:35.526"></status>
+</kw>
+<kw name="Read JSON" library="actions">
+<arguments>
+<arg>${root_path}${/}Resources${/}setup.json</arg>
+</arguments>
+<assign>
+<var>${data}</var>
+</assign>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${absolute_path}</arg>
+</arguments>
+<assign>
+<var>${temp}</var>
+</assign>
+<msg timestamp="20201028 18:50:35.531" level="INFO" html="yes">Getting file '&lt;a href="file://D:\DN\booking-crawl\Resources\setup.json"&gt;D:\DN\booking-crawl\Resources\setup.json&lt;/a&gt;'.</msg>
+<msg timestamp="20201028 18:50:35.532" level="INFO">${temp} = {
+  "setup": {
+    "browser": "chrome",
+    "headless": "false"
+  },
+  "Wattpad": {
+    "url": "https://www.wattpad.com",
+    "username": "meomeomeozzz1996",
+    "password": "12345678x@X"
+  }
+}</msg>
+<status status="PASS" starttime="20201028 18:50:35.529" endtime="20201028 18:50:35.532"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>json.loads('''${temp}''')</arg>
+<arg>json</arg>
+</arguments>
+<assign>
+<var>${json_data}</var>
+</assign>
+<msg timestamp="20201028 18:50:35.534" level="INFO">${json_data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:35.533" endtime="20201028 18:50:35.534"></status>
+</kw>
+<msg timestamp="20201028 18:50:35.535" level="INFO">${data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:35.527" endtime="20201028 18:50:35.535"></status>
+</kw>
+<msg timestamp="20201028 18:50:35.535" level="INFO">${data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:35.524" endtime="20201028 18:50:35.535"></status>
+</kw>
+<kw name="Open My Browser" library="Booking">
+<arguments>
+<arg>${data}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:35.536" endtime="20201028 18:50:48.334"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:35.523" endtime="20201028 18:50:48.335"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:35.522" endtime="20201028 18:50:48.335"></status>
+</kw>
+<suite id="s1-s1" name="Wattpad" source="D:\DN\booking-crawl\Tasks\wattpad.robot">
+<test id="s1-s1-t1" name="Pulling Content From My Library">
+<kw name="Export Global Data" library="main" type="setup">
+<kw name="Get Data" library="main">
+<assign>
+<var>${temp}</var>
+</assign>
+<kw name="Get Root Path" library="Share">
+<assign>
+<var>${root_path}</var>
+</assign>
+<msg timestamp="20201028 18:50:48.382" level="INFO">${root_path} = D:\DN\booking-crawl</msg>
+<status status="PASS" starttime="20201028 18:50:48.381" endtime="20201028 18:50:48.382"></status>
+</kw>
+<kw name="Read JSON" library="actions">
+<arguments>
+<arg>${root_path}${/}Resources${/}setup.json</arg>
+</arguments>
+<assign>
+<var>${data}</var>
+</assign>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${absolute_path}</arg>
+</arguments>
+<assign>
+<var>${temp}</var>
+</assign>
+<msg timestamp="20201028 18:50:48.385" level="INFO" html="yes">Getting file '&lt;a href="file://D:\DN\booking-crawl\Resources\setup.json"&gt;D:\DN\booking-crawl\Resources\setup.json&lt;/a&gt;'.</msg>
+<msg timestamp="20201028 18:50:48.386" level="INFO">${temp} = {
+  "setup": {
+    "browser": "chrome",
+    "headless": "false"
+  },
+  "Wattpad": {
+    "url": "https://www.wattpad.com",
+    "username": "meomeomeozzz1996",
+    "password": "12345678x@X"
+  }
+}</msg>
+<status status="PASS" starttime="20201028 18:50:48.384" endtime="20201028 18:50:48.386"></status>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>json.loads('''${temp}''')</arg>
+<arg>json</arg>
+</arguments>
+<assign>
+<var>${json_data}</var>
+</assign>
+<msg timestamp="20201028 18:50:48.387" level="INFO">${json_data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:48.386" endtime="20201028 18:50:48.387"></status>
+</kw>
+<msg timestamp="20201028 18:50:48.388" level="INFO">${data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:48.383" endtime="20201028 18:50:48.388"></status>
+</kw>
+<msg timestamp="20201028 18:50:48.389" level="INFO">${temp} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:48.380" endtime="20201028 18:50:48.389"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${data}</arg>
+<arg>${temp}</arg>
+</arguments>
+<msg timestamp="20201028 18:50:48.392" level="INFO">${data} = {'setup': {'browser': 'chrome', 'headless': 'false'}, 'Wattpad': {'url': 'https://www.wattpad.com', 'username': 'meomeomeozzz1996', 'password': '12345678x@X'}}</msg>
+<status status="PASS" starttime="20201028 18:50:48.389" endtime="20201028 18:50:48.392"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:48.379" endtime="20201028 18:50:48.393"></status>
+</kw>
+<kw name="Log in to Wattpad" library="main_steps">
+<arguments>
+<arg>${data['${RESOURCE}']}</arg>
+</arguments>
+<kw name="Click Login Button" library="single_step">
+<kw name="Wait Until Element Is Visible" library="Booking">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${login_button}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.397" endtime="20201028 18:50:48.426"></status>
+</kw>
+<kw name="Click Element" library="Booking">
+<arguments>
+<arg>${login_button}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.426" endtime="20201028 18:50:48.602"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:48.396" endtime="20201028 18:50:48.602"></status>
+</kw>
+<kw name="Click Normal Login Button" library="single_step">
+<kw name="Wait Until Element Is Visible" library="Booking">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${login_button_by_normal}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.604" endtime="20201028 18:50:48.638"></status>
+</kw>
+<kw name="Click Element" library="Booking">
+<arguments>
+<arg>${login_button_by_normal}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.638" endtime="20201028 18:50:48.686"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:48.603" endtime="20201028 18:50:48.686"></status>
+</kw>
+<kw name="Put Data To Username And Password Fields" library="single_step">
+<arguments>
+<arg>${data['username']}</arg>
+<arg>${data['password']}</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="Booking">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${username_field}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.689" endtime="20201028 18:50:48.715"></status>
+</kw>
+<kw name="Input Text" library="Booking">
+<arguments>
+<arg>${username_field}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20201028 18:50:48.749" level="INFO">Typing text 'meomeomeozzz1996' into text field 'id=login-username'.</msg>
+<status status="PASS" starttime="20201028 18:50:48.716" endtime="20201028 18:50:48.940"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Booking">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${password_field}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:48.941" endtime="20201028 18:50:48.970"></status>
+</kw>
+<kw name="Input Text" library="Booking">
+<arguments>
+<arg>${password_field}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20201028 18:50:49.007" level="INFO">Typing text '12345678x@X' into text field 'id=login-password'.</msg>
+<status status="PASS" starttime="20201028 18:50:48.971" endtime="20201028 18:50:49.206"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:48.687" endtime="20201028 18:50:49.207"></status>
+</kw>
+<kw name="Click Submit Login Button" library="single_step">
+<kw name="Wait Until Element Is Visible" library="Booking">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${submit_login_button}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:49.208" endtime="20201028 18:50:49.238"></status>
+</kw>
+<kw name="Click Element" library="Booking">
+<arguments>
+<arg>${submit_login_button}</arg>
+</arguments>
+<status status="PASS" starttime="20201028 18:50:49.239" endtime="20201028 18:50:49.858"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:49.207" endtime="20201028 18:50:49.859"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:48.394" endtime="20201028 18:50:49.859"></status>
+</kw>
+<kw name="Query By Keyword" library="Wattpad">
+<arguments>
+<arg>bhtt</arg>
+</arguments>
+<msg timestamp="20201028 19:06:44.400" level="INFO">&lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20201028 18:50:49.868" endtime="20201028 19:06:44.401"></status>
+</kw>
+<tags>
+<tag>get_all_bhtt</tag>
+</tags>
+<status status="PASS" starttime="20201028 18:50:48.375" endtime="20201028 19:06:44.406" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201028 18:50:48.335" endtime="20201028 19:06:44.409"></status>
+</suite>
+<kw name="Close Browser" library="Booking" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201028 19:06:44.413" endtime="20201028 19:06:47.913"></status>
+</kw>
+<status status="PASS" starttime="20201028 18:50:32.525" endtime="20201028 19:06:47.913"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">get_all_bhtt</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Tasks">Tasks</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Wattpad">Tasks.Wattpad</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

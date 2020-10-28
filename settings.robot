@@ -1,2 +1,2 @@
 *** Variables ***
-${RESOURCE}   wattpad
+${RESOURCE}   Wattpad

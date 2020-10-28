@@ -1,5 +1,6 @@
 *** Settings ***
 Resource   locators.robot
+Resource   ../../Common/main.robot
 
 *** Keywords ***
 Click Login Button
@@ -11,11 +12,11 @@ Click Normal Login Button
     Click Element   ${login_button_by_normal}
 
 Put Data To Username And Password Fields
-    [Arguments]   ${login_username}   ${login_password}
-    Wait Until Element Is Visible   ${username}
-    Input Text   ${username}
-    Wait Until Element Is Visible   ${password}
-    Input Text   ${login_password}
+    [Arguments]   ${username}   ${password}
+    Wait Until Element Is Visible   ${username_field}
+    Input Text   ${username_field}   ${username}
+    Wait Until Element Is Visible   ${password_field}
+    Input Text   ${password_field}   ${password}
 
 Click Submit Login Button
     Wait Until Element Is Visible   ${submit_login_button}

@@ -1,8 +1,8 @@
 *** Settings ***
-Resource   ../Common/Common.robot
+Resource   ../Common/main.robot
 
-Suite Setup
+Suite Setup   Opening Resource's UI
 Suite Teardown   Close Browser
 
-Test Setup  Run Keywords   Get Current Tag   Set Data   Select Library
+Test Setup   Export Global Data
 

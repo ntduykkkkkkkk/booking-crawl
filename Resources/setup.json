@@ -1,0 +1,11 @@
+{
+  "setup": {
+    "browser": "chrome",
+    "headless": "false"
+  },
+  "Wattpad": {
+    "url": "https://www.wattpad.com",
+    "username": "meomeomeozzz1996",
+    "password": "12345678x@X"
+  }
+}
