@@ -1,0 +1,11 @@
+output.xml
+log.html
+report.html
+debug.log
+geckodriver.log
+Results
+.idea/
+*.png
+*.pyc
+venv/*
+.idea/workspace.xml

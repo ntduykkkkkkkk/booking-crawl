@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3083929-fecc-47ed-aa11-aba7b9c9f70b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/main.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Share/Actions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Share/Actions/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Share/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/Actions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/Actions/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Wattpad/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/setup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Common.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Common_Actions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Common/actions.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Common_Locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Common/locators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/elementkeywords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/pcnkeywords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/keywords/tablekeywords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/webelement/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/PCNLibrary/webelement/pcnwebelement_extended.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/wattpad/locators.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/wattpad/locators.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/wattpad/single_step.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/wattpad/single_step.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/__init__.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/__init__.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/wattpad.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/wattpad.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.robot" beforeDir="false" afterPath="$PROJECT_DIR$/settings.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.json" beforeDir="false" />
-    </list>
+    <list default="true" id="c3083929-fecc-47ed-aa11-aba7b9c9f70b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,16 +85,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="334">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -310,24 +293,24 @@
       <option name="presentableId" value="Default" />
       <updated>1603794889759</updated>
       <workItem from="1603794891668" duration="11450000" />
-      <workItem from="1603873738353" duration="5995000" />
+      <workItem from="1603873738353" duration="6398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17445000" />
+    <option name="totallyTimeSpent" value="17848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -335,7 +318,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.32839838" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4974293" weight="0.38136512" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4974293" visible="true" weight="0.38136512" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,9 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Libs/PCNLibrary/keywords/browserkeywords.py" />
     <entry file="file://$PROJECT_DIR$/settings.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -437,9 +417,6 @@
           <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,13 +565,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Libs/Wattpad/Actions/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="334">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
